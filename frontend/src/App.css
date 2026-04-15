@@ -1,34 +1,57 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+/* Additional component animations */
+.App {
+  min-height: 100vh;
+  background: #0A0A0A;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+/* Animated border gold */
+@keyframes borderGlow {
+  0%, 100% { border-color: rgba(212, 175, 55, 0.3); }
+  50% { border-color: rgba(212, 175, 55, 0.6); }
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+.animate-border-glow {
+  animation: borderGlow 3s ease-in-out infinite;
 }
 
-.App-link {
-    color: #61dafb;
+/* Parallax helper */
+.parallax-slow {
+  will-change: transform;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+/* Masonry grid */
+.masonry-grid {
+  columns: 3;
+  column-gap: 1rem;
+}
+.masonry-grid > * {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .masonry-grid {
+    columns: 1;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .masonry-grid {
+    columns: 2;
+  }
+}
+
+/* Horizontal scroll */
+.horizontal-scroll {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.horizontal-scroll::-webkit-scrollbar {
+  display: none;
+}
+.horizontal-scroll > * {
+  scroll-snap-align: start;
+  flex-shrink: 0;
 }
