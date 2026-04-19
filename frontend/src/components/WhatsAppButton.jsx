@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { X } from "lucide-react";
 
-const WHATSAPP_NUMBER = "919827333552";
+const WHATSAPP_NUMBER = "919622725132";
 const WHATSAPP_MSG = encodeURIComponent("Hi, I'm interested in your premium aluminium solutions. Can you share more details?");
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=${WHATSAPP_MSG}`;
 

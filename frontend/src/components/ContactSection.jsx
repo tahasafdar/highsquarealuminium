@@ -14,7 +14,7 @@ import { Phone, Mail, MapPin, Send, CheckCircle, ArrowRight } from "lucide-react
 //    - Who has access: Anyone
 // 4. Copy the Web App URL and paste it below
 // =====================================================
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec"; // <-- Replace this
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyYtTaQ-h0WofjiClMMlcXs1IY-h2YGJzueyPdZO1Q/exec"; // <-- Replace this
 
 const serviceOptions = [
   "Sliding Windows",
@@ -24,6 +24,7 @@ const serviceOptions = [
   "Glass Partitions",
   "Invisible Grills",
   "Custom Solution",
+  "Other Inquiry",
 ];
 
 function AnimatedInput({ label, required, children }) {
@@ -150,14 +151,14 @@ export default function ContactSection() {
                   label: "Phone",
                   content: (
                     <>
-                      <p className="text-white">+91 98273 33552</p>
+                      <p className="text-white">+91 9622725132</p>
                     </>
                   ),
                 },
                 {
                   icon: Mail,
                   label: "Email",
-                  content: <p className="text-white">info@highsquarealuminium.com</p>,
+                  content: <p className="text-white">highsquarealuminium@gmail.com</p>,
                 },
                 {
                   icon: MapPin,
@@ -165,7 +166,7 @@ export default function ContactSection() {
                   isGold: true,
                   content: (
                     <p className="text-[#A3A3A3] text-sm">
-                      Monalisa Aluminium, MG Road, Indore, MP 452001
+                      Factory and Fabrication Unit, Dayanand Nagar, Indore, MP 452007
                     </p>
                   ),
                 },
