@@ -17,13 +17,15 @@ import { Phone, Mail, MapPin, Send, CheckCircle, ArrowRight } from "lucide-react
 const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyYtTaQ-h0WofjiClMMlcXs1IY-h2YGJzueyPdZO1Q/exec"; // <-- Replace this
 
 const serviceOptions = [
-  "Sliding Windows",
-  "Casement Windows",
-  "Domal Windows",
-  "Aluminium Doors",
-  "Glass Partitions",
-  "Invisible Grills",
-  "Custom Solution",
+  "Sliding Window & Door Systems",
+  "Casement & Awning Window Systems",
+  "Tilt & Turn Window Systems",
+  "Bi-Fold & Pivot Door Systems",
+  "Thermal Break Aluminium Systems",
+  "Facade & Glazing Systems",
+  "Vertical Sliding Systems",
+  "Slim Partition Systems",
+  "Architectural Aluminium Solutions",
   "Other Inquiry",
 ];
 

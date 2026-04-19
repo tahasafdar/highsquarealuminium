@@ -6,40 +6,59 @@ import { DiamondPattern } from "./Graphics";
 const services = [
   {
     icon: PanelTop,
-    title: "Sliding Windows",
-    desc: "Smooth-glide aluminium sliding windows for effortless ventilation and modern aesthetics.",
+    title: "Sliding Window & Door Systems",
+    desc: "Smooth-glide aluminium systems delivering space-saving access, effortless movement, and modern elegance.",
     num: "01",
   },
   {
     icon: Grid3x3,
-    title: "Casement Windows",
-    desc: "Premium hinged windows offering maximum airflow and unobstructed views.",
+    title: "Casement & Awning Window Systems",
+    desc: "High-performance outward-opening systems designed for superior ventilation, weather protection, and clear views.",
     num: "02",
   },
   {
     icon: Layers,
-    title: "Domal Windows",
-    desc: "Curved architectural windows adding distinctive character to any structure.",
+    title: "Tilt & Turn Window Systems",
+    desc: "Versatile dual-function windows combining secure ventilation, easy cleaning, and contemporary European styling.",
     num: "03",
   },
   {
     icon: DoorOpen,
-    title: "Aluminium Doors",
-    desc: "Durable, sleek doors engineered for security and refined style.",
+    title: "Bi-Fold & Pivot Door Systems",
+    desc: "Statement door solutions creating seamless openings, expansive access, and luxurious architectural impact.",
     num: "04",
   },
   {
     icon: Fence,
-    title: "Glass Partitions",
-    desc: "Frameless and framed solutions creating elegant spatial divisions.",
+    title: "Thermal Break Aluminium Systems",
+    desc: "Energy-efficient insulated profiles engineered for temperature control, comfort, and premium performance.",
     num: "05",
   },
   {
     icon: Shield,
-    title: "Invisible Grills",
-    desc: "Safety without compromise \u2014 near-invisible grills for balconies and windows.",
+    title: "Facade & Glazing Systems",
+    desc: "Sophisticated exterior systems enhancing natural light, structural beauty, and building performance.",
     num: "06",
   },
+  {
+    icon: PanelTop,
+    title: "Vertical Sliding Systems",
+    desc: "Classic up-and-down sliding designs blending timeless aesthetics with smooth modern functionality.",
+    num: "01",
+  },
+  {
+    icon: Grid3x3,
+    title: "Slim Partition Systems",
+    desc: "Minimal-profile partitions creating elegant spaces with maximum light and refined openness.",
+    num: "02",
+  },
+  {
+    icon: Layers,
+    title: "Architectural Aluminium Solutions",
+    desc: "Custom-crafted aluminium innovations tailored to elevate design, durability, and functional excellence.",
+    num: "03",
+  }
+
 ];
 
 function ServiceCard({ service, i, inView }) {
