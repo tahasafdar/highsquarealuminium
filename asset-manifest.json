@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/highsquarealuminium/static/css/main.b55972ae.css",
-    "main.js": "/highsquarealuminium/static/js/main.1d5432f5.js",
+    "main.js": "/highsquarealuminium/static/js/main.004a1dbc.js",
     "index.html": "/highsquarealuminium/index.html",
     "main.b55972ae.css.map": "/highsquarealuminium/static/css/main.b55972ae.css.map",
-    "main.1d5432f5.js.map": "/highsquarealuminium/static/js/main.1d5432f5.js.map"
+    "main.004a1dbc.js.map": "/highsquarealuminium/static/js/main.004a1dbc.js.map"
   },
   "entrypoints": [
     "static/css/main.b55972ae.css",
-    "static/js/main.1d5432f5.js"
+    "static/js/main.004a1dbc.js"
   ]
 }
